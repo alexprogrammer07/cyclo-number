@@ -1,11 +1,8 @@
-package com.akshat.number_programs;
-
-//Note : Below program is done in two methods "combined". Replace the specific lines of the code with the comments.
-
 import java.io.*;
 import java.util.Scanner;
 
-public class cyclo_number {
+public class cyclo_number 
+{
     public static void main(String[] args)//throws IOException
     {
 
@@ -19,7 +16,7 @@ public class cyclo_number {
 
         int rem ,rem1,rev=0,temp=n,n1=n;  // Initialize the variables
         int div,cnt=-1;
-        rem1 = n1 % 10;
+        rem1 = n1 % 10;  // Store the value in vaiable
 
         while(n>0) {
             /*rem=n%10;
